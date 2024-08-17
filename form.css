@@ -17,7 +17,10 @@ p{
 }
 .container{
     background-color: red;
-    margin: 50px;  /*outside space*/
+    margin: 50px 20px 10px 5px;  /*outside space*/
     padding: 20px; /*inside space*/
+    border: 5px /*border width*/ solid blue;
+    border-radius: 100px /*curve the edges*/;
+    
 
 }
