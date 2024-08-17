@@ -1,0 +1,23 @@
+h1{
+    color: aqua;
+    font-size: 99px;
+    background-color: brown;
+}
+p{
+    border: 1px solid blue;
+}
+#username{
+    color: red;
+}
+.item{
+    background-color: blueviolet;
+}
+.select{
+    border: 1px solid green ;
+}
+.container{
+    background-color: red;
+    margin: 50px;  /*outside space*/
+    padding: 20px; /*inside space*/
+
+}
