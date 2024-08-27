@@ -66,3 +66,16 @@ console.log(merged)
 //Object
 const data={name:'abdullah',rollno:1234,class:'23-b'}
 console.log(data)
+
+//Conditions
+const flag1=undefined
+const flag2='Abdul'
+if(flag1){
+    console.log('Welcome')
+}
+else if(flag2){
+    console.log("World")
+}
+else{
+    console.log("Hello")
+}
