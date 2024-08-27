@@ -64,3 +64,5 @@ console.log(merged)
 
 
 //Object
+const data={name:'abdullah',rollno:1234,class:'23-b'}
+console.log(data)
