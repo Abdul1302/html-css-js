@@ -31,19 +31,19 @@ console.log(fruits)
 //Methods of the Array
 console.log(length.fruits)
 
-//push
+//push (put new element in last index)
 fruits.push('orange')
 console.log(fruits)
 
-//pop
+//pop  (remove last element from index)
 fruits.pop()
 console.log(fruits)
 
-//shift
+//shift (remove new element in first index)
 fruits.shift()
 console.log(fruits)
 
-//unshift
+//unshift (put new element in first index)
 fruits.unshift('banana')
 console.log(fruits)
 
@@ -58,14 +58,14 @@ const f= merged.slice(0,3)
 console.log(merged,'merged Array')
 console.log(f,'f_array')
 
-//Splice
-merged.splice(2,0,'lemon','carrot')
+//Splice ==> (delete from given index,number of elements to felete,put new element where we removed value)
+merged.splice(2,0,'lemon')
 console.log(merged)
 
 
 //Object
 const data={name:'abdullah',rollno:1234,class:'23-b'}
-console.log(data)
+console.log(data)   
 
 //Conditions
 const flag1=undefined
