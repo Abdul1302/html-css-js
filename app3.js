@@ -185,10 +185,9 @@ for(const element of data2){
 }
 
 // function
-const welcome= () => {
-    console.log("name")
+const sum= (num1,num2) => {
+    const result=  num1+num2
+    return result
 
 }
-welcome()
-
-console.log(typeof welcome);
+sum(4,5)
