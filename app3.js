@@ -184,4 +184,11 @@ for(const element of data2){
     console.log(element)
 }
 
+// function
+const welcome= () => {
+    console.log("name")
 
+}
+welcome()
+
+console.log(typeof welcome);
